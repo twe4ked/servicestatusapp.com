@@ -1,0 +1,38 @@
+body {
+  background: url('/images/background.png');
+  font-family: Sans-Serif;
+  text-align: center;
+  color: #333;
+}
+
+#iphone {
+  width: 381px;
+  height: 312px;
+  margin: 100px auto 0;
+  background: url('/images/iphone.png') no-repeat;
+  position: relative;
+  z-index: 1;
+  transition: background-position 1s ease;
+}
+
+#iphone:hover {
+  background-position: 0 10px;
+}
+
+#shadow {
+  width: 951px;
+  height: 10px;
+  margin: -10px auto 20px;
+  background: url('/images/shadow.png');
+  position: relative;
+  z-index: 2;
+}
+
+a {
+  display: block;
+  width: 135px;
+  height: 40px;
+  background: url('/images/button.png');
+  text-indent: -9001px;
+  margin: 0 auto;
+}
