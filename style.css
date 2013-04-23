@@ -23,7 +23,7 @@ body {
 
 #shadow {
   height: 10px;
-  margin: -10px auto 20px;
+  margin: -10px auto 40px;
   background: url('/images/shadow.png') center no-repeat;
   position: relative;
   z-index: 2;
@@ -51,5 +51,9 @@ small {
 @media only screen and (max-device-width: 480px) {
   #iphone {
     margin-top: 20px;
+  }
+
+  #shadow {
+    margin-bottom: 20px;
   }
 }
