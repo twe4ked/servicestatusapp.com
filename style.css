@@ -36,3 +36,13 @@ a {
   text-indent: -9001px;
   margin: 0 auto;
 }
+
+p {
+  width: 440px;
+  margin: 0 auto 20px;
+}
+
+small {
+  font-size: 12px;
+  color: #999;
+}
