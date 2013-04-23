@@ -3,6 +3,7 @@ body {
   font-family: Sans-Serif;
   text-align: center;
   color: #333;
+  margin: 0;
 }
 
 #iphone {
@@ -21,10 +22,9 @@ body {
 }
 
 #shadow {
-  width: 951px;
   height: 10px;
   margin: -10px auto 20px;
-  background: url('/images/shadow.png');
+  background: url('/images/shadow.png') center no-repeat;
   position: relative;
   z-index: 2;
 }
@@ -46,4 +46,10 @@ p {
 small {
   font-size: 12px;
   color: #999;
+}
+
+@media only screen and (max-device-width: 480px) {
+  #iphone {
+    margin-top: 20px;
+  }
 }
