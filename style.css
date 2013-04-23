@@ -7,16 +7,17 @@ body {
 
 #iphone {
   width: 381px;
-  height: 312px;
+  height: 325px;
   margin: 100px auto 0;
   background: url('/images/iphone.png') no-repeat;
   position: relative;
   z-index: 1;
-  transition: background-position 1s ease;
+  transition: background-position 0.25s ease;
+  background-position: 0 20px;
 }
 
 #iphone:hover {
-  background-position: 0 10px;
+  background-position: 0 0;
 }
 
 #shadow {
