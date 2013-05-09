@@ -7,6 +7,7 @@ body {
 }
 
 #iphone {
+  display: block;
   width: 381px;
   height: 325px;
   margin: 100px auto 0;
@@ -29,13 +30,17 @@ body {
   z-index: 2;
 }
 
-a {
+a.app-store {
   display: block;
   width: 135px;
   height: 40px;
   background: url('/images/button.png');
   text-indent: -9001px;
   margin: 0 auto;
+}
+
+a {
+  color: #000;
 }
 
 p {
