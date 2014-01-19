@@ -34,6 +34,7 @@ a.app-store {
   width: 135px;
   height: 40px;
   background: url('/images/button.png');
+  background-size: 135px 40px;
   text-indent: -9001px;
   margin: 0 auto;
 }
